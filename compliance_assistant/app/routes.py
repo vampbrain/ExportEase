@@ -16,11 +16,14 @@ documents = [
 ]
 
 # Route for generating random documents
-@router.get("/generate-documents")
-async def generate_documents():
-    num_docs = random.randint(3, 5)  # Randomly select between 3 and 5 documents
-    selected_docs = random.sample(documents, num_docs)
-    return {"compliance_documents": selected_docs}
+@router.get("/generate-synthetic-data/{document_type}")
+async def generate_synthetic_data_endpoint(document_type: str):
+    try:
+        # Generate synthetic data based on document type
+        synthetic_data = generate_synthetic_data(document_type)
+        return synthetic_data
+    except Exception as e:
+        return JSONResponse(content={"message": f"Error: {str(e)}"}, status_code=500)
 
 # Pydantic Model for Document Validation Input
 class Document(BaseModel):
