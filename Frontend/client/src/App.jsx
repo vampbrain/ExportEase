@@ -7,20 +7,35 @@ import HomePage from './features/home/HomePage';
 import CompliancePage from './features/compliance/CompliancePage';
 import PDFReader from './features/test/Test';
 import ShippingEstimator from './features/priceEstimation/PriceEstimation';
+import { ThemeProvider } from './components/main/theme'
+import Navbar from './components/main/navbar'
+
+const Layout = ({ children }) => {
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <Navbar />
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {children}
+      </main>
+    </div>
+  )
+}
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path='/' element={<HomePage/>} />
-        <Route path="/login" element={<LoginPage/>} />
-        <Route path='/signup' element={<SignupPage/>} />
-        <Route path='/track' element={<TrackPage/>} />
-        <Route path='/compliance' element={<CompliancePage/>}/>
-        <Route path="/estimation" element={<ShippingEstimator/>}/>
-        <Route path='/test' element={<PDFReader/>}/>
-      </Routes>
-    </Router>
+    <ThemeProvider>
+      <Router>
+        <Layout>
+          <Routes>
+            <Route path='/' element={<HomePage/>} />
+            <Route path="/login" element={<LoginPage/>} />
+            <Route path='/signup' element={<SignupPage/>} />
+            <Route path='/track' element={<TrackPage/>} />
+            <Route path='/compliance' element={<CompliancePage/>}/>
+          </Routes>
+        </Layout>
+      </Router>
+    </ThemeProvider>
   )
 }
 
