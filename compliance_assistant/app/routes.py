@@ -3,6 +3,11 @@ from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 import random
 import os
+import pickle
+
+import torch
+from transformers import pipeline
+
 
 router = APIRouter()
 
@@ -83,3 +88,29 @@ def generate_synthetic_data(document_type: str):
     }
 
     return data.get(document_type, {"message": "Unknown document type"})
+
+# Path to the pickled model
+PICKLE_FILE_PATH = "./fine_tuned_tinyroberta.pkl"
+
+# Load the model and tokenizer from the pickle file
+with open(PICKLE_FILE_PATH, "rb") as f:
+    model, tokenizer = pickle.load(f)
+
+# Create a question-answering pipeline
+device = 0 if torch.cuda.is_available() else -1
+qa_pipeline = pipeline("question-answering", model=model, tokenizer=tokenizer, device=device)
+
+# Request model for QA
+class QARequest(BaseModel):
+    context: str
+    question: str
+
+# Route to perform question-answering
+@router.post("/answer")
+async def get_answer(request: QARequest):
+    try:
+        # Use the pipeline for inference
+        result = qa_pipeline(question=request.question, context=request.context)
+        return {"answer": result["answer"], "score": result["score"]}
+    except Exception as e:
+        return {"error": str(e)}
