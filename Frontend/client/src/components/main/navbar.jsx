@@ -20,7 +20,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-import { Home, MessageSquare, BarChart2, User, Moon, Sun } from 'lucide-react'
+import { Home, MessageSquare, DollarSign, User, Moon, Sun, Calculator, Globe, TrendingUp, Truck } from 'lucide-react'
 
 const ListItem = React.forwardRef(({ className, title, children, ...props }, ref) => {
   return (
@@ -51,7 +51,14 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <Link to="/" className="text-primary font-bold text-xl">ExportEase</Link>
+            <Link to="/" aria-label="Home">
+              <img 
+                src="/assets/Group2.svg" 
+                alt="ExportEase Logo" 
+                className="h-20 w-auto transition-all duration-200 ease-in-out
+                           dark:invert dark:brightness-200 dark:hue-rotate-180"
+              />
+            </Link>
           </div>
           <div className="flex items-center space-x-4">
             <NavigationMenu>
@@ -85,13 +92,13 @@ export default function Navbar() {
                           </Link>
                         </NavigationMenuLink>
                       </li>
-                      <ListItem href="/compliance/general" title="General Inquiries">
+                      <ListItem href="/compliance" title="General Inquiries">
                         Ask general compliance questions
                       </ListItem>
-                      <ListItem href="/compliance/specific" title="Specific Regulations">
+                      <ListItem href="/compliance" title="Specific Regulations">
                         Get information on specific regulations
                       </ListItem>
-                      <ListItem href="/compliance/history" title="Chat History">
+                      <ListItem href="/compliance" title="Chat History">
                         View your past conversations
                       </ListItem>
                     </ul>
@@ -99,41 +106,27 @@ export default function Navbar() {
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>
-                    <BarChart2 className="mr-2 h-4 w-4" />
-                    Track
+                    <DollarSign className="mr-2 h-4 w-4" />
+                    Price Estimation
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                      {[
-                        {
-                          title: "Compliance Dashboard",
-                          href: "/track",
-                          description: "View your overall compliance status",
-                        },
-                        {
-                          title: "Task Management",
-                          href: "/track/tasks",
-                          description: "Manage and track compliance tasks",
-                        },
-                        {
-                          title: "Reports",
-                          href: "/track/reports",
-                          description: "Generate and view compliance reports",
-                        },
-                        {
-                          title: "Audit Logs",
-                          href: "/track/audit",
-                          description: "Review audit logs and activities",
-                        },
-                      ].map((item) => (
-                        <ListItem
-                          key={item.title}
-                          title={item.title}
-                          href={item.href}
-                        >
-                          {item.description}
-                        </ListItem>
-                      ))}
+                      <ListItem href="/estimate" title="Cost Calculator">
+                        <Calculator className="mr-2 h-4 w-4 inline" />
+                        Estimate export costs for your shipment
+                      </ListItem>
+                      <ListItem href="/estimate" title="Destination Guide">
+                        <Globe className="mr-2 h-4 w-4 inline" />
+                        View export costs by destination
+                      </ListItem>
+                      <ListItem href="/estimate" title="Price Trends">
+                        <TrendingUp className="mr-2 h-4 w-4 inline" />
+                        Analyze historical export cost trends
+                      </ListItem>
+                      <ListItem href="/estimate" title="Shipping Services">
+                        <Truck className="mr-2 h-4 w-4 inline" />
+                        Compare different shipping service costs
+                      </ListItem>
                     </ul>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
