@@ -9,11 +9,12 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import ReactMarkdown from 'react-markdown';
 import { FileUpload } from "@/components/ui/file-upload";
 
-export function FileUploadDemo() {
-  const [files, setFiles] = useState([]);
+export function FileUploadDemo({onChange}) {
   const handleFileUpload = (files) => {
-    setFiles(files);
-    console.log(files);
+    if (files && files.length > 0) {
+      // Pass the files back to parent component
+      onChange(files);
+    }
   };
 
   return (
@@ -74,7 +75,6 @@ const ComplianceAssistant = () => {
       }
     }
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!inputMessage.trim() || !selectedFile) return;
@@ -93,7 +93,7 @@ const ComplianceAssistant = () => {
       formData.append('question', newMessage);
       formData.append('file', selectedFile);
 
-      const response = await fetch('https://exportease-fastapi.vercel.app/ask/', {
+      const response = await fetch('http://127.0.0.1:8000/ask/', {
         method: 'POST',
         body: formData,
       });
@@ -190,20 +190,20 @@ const ComplianceAssistant = () => {
       {/* Main chat area */}
       <ScrollArea className="flex-1 px-4 py-6">
         <div className="max-w-4xl mx-auto">
-          {!selectedFile && messages.length === 0 && (
-            <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-12">
-              <Card className="w-full max-w-xl p-8">
-                <CardContent className="text-center space-y-6">
-                  <Shield className="h-16 w-16 mx-auto" />
-                  <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Compliance Assistant</h2>
-                    <p className="text-gray-600 dark:text-gray-400">
-                      Upload a document to analyze compliance requirements and regulations.
-                    </p>
-                  </div>
-                  <FileUploadDemo onChange={handleFileUpload} />
-                </CardContent>
-              </Card>
+        {!selectedFile && messages.length === 0 && (
+        <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-12">
+          <Card className="w-full max-w-xl p-8">
+            <CardContent className="text-center space-y-6">
+              <Shield className="h-16 w-16 mx-auto" />
+              <div className="space-y-2">
+                <h2 className="text-2xl font-semibold">Compliance Assistant</h2>
+                <p className="text-gray-600 dark:text-gray-400">
+                  Upload a document to analyze compliance requirements and regulations.
+                </p>
+              </div>
+              <FileUploadDemo onChange={handleFileUpload} />
+            </CardContent>
+          </Card>
 
               <div className="w-full max-w-xl space-y-6">
                 <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">

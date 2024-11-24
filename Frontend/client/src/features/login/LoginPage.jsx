@@ -28,7 +28,7 @@ function AuthPage() {
   const [role, setRole] = useState("Small Business"); // Default role
   const [error, setError] = useState("");
 
-  const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
+  const apiBaseUrl = "http://127.0.0.1:5000/api";
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {

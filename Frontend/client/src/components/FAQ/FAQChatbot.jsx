@@ -36,7 +36,7 @@ const CustomChatbot = () => {
       formData.append('session_id', sessionId);
       formData.append('context', 'Your FAQ context here');
 
-      const response = await fetch('https://exportease-fastapi.vercel.app/faq/start', {
+      const response = await fetch('http://127.0.0.1:8000/faq/start', {
         method: 'POST',
         body: formData,
       });
