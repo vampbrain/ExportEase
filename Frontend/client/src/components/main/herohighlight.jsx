@@ -7,12 +7,12 @@ export function HeroHighlightDemo() {
   return (
     (<HeroHighlight>
       <motion.h1
-            className="text-4xl font-bold mb-4"
+            className="text-4xl font-bold mb-4 z-0"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Welcome to CompliancePro
+            Welcome to ExportEase
           </motion.h1>
           <motion.p
             className="text-xl mb-8"

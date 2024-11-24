@@ -4,6 +4,9 @@ import { Button } from "@/components/ui/button";
 import { ArrowDown, MessageSquare } from 'lucide-react';
 import { GlobeDemo } from "../../components/main/globe";
 import { HeroHighlightDemo } from '../../components/main/herohighlight';
+import FAQChatbot from '../../components/FAQ/FAQChatbot';
+import ModernFAQChatbot from '../../components/FAQ/FAQChatbot';
+import CustomChatbot from '../../components/FAQ/FAQChatbot';
 
 const AnimatedSection = ({ children }) => {
   const ref = useRef(null);
@@ -106,6 +109,7 @@ export default function HomePage() {
         </section>
       </AnimatedSection>
     </div>
+    <CustomChatbot/>
     </div>
   );
 }

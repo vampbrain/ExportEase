@@ -10,12 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.21.0",
     "@radix-ui/react-avatar": "^1.1.1",
     "@radix-ui/react-dropdown-menu": "^2.1.2",
-    "@google/generative-ai": "^0.21.0",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-navigation-menu": "^1.2.1",
     "@radix-ui/react-radio-group": "^1.2.1",
+    "@radix-ui/react-scroll-area": "^1.2.1",
     "@radix-ui/react-select": "^2.1.2",
     "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
@@ -37,16 +38,21 @@
     "react-day-picker": "^8.10.1",
     "react-dom": "^18.3.1",
     "react-feather": "^2.0.10",
+    "react-markdown": "^9.0.1",
     "react-router": "^6.28.0",
     "react-router-dom": "^6.28.0",
+    "react-simple-chatbot": "^0.6.1",
     "react-toastify": "^10.0.6",
+    "styled-components": "^4.4.1",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.170.0",
-    "three-globe": "^2.35.2"
+    "three-globe": "^2.35.2",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "@tailwindcss/typography": "^0.5.15",
     "@types/node": "^22.9.1",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",

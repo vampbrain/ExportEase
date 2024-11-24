@@ -47,11 +47,11 @@ export default function Navbar() {
   const navigate = useNavigate()
 
   return (
-    <nav className="bg-background border-b border-border">
+    <nav className="bg-background border-b border-border z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <Link to="/" className="text-primary font-bold text-xl">CompliancePro</Link>
+            <Link to="/" className="text-primary font-bold text-xl">ExportEase</Link>
           </div>
           <div className="flex items-center space-x-4">
             <NavigationMenu>

@@ -66,10 +66,10 @@ const ShippingEstimator = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 p-4 md:p-8">
+    <div className=" bg-gradient-to-b  p-4 md:p-8">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Shipping Rate Calculator</h1>
+          <h1 className="text-3xl font-bold mb-2">Shipping Rate Calculator</h1>
           <p className="text-gray-600">Get instant AI-powered shipping quotes for your package</p>
         </div>
 
