@@ -1,0 +1,506 @@
+[
+    {
+        "context": "IEC stands for Importer-Exporter Code, which is a 10-digit code required for any entity involved in importing or exporting goods. It is issued by the Directorate General of Foreign Trade (DGFT) and is mandatory for international trade transactions.",
+        "question": "What is an IEC?",
+        "answers": {
+            "text": ["IEC stands for Importer-Exporter Code, which is a 10-digit code required for any entity involved in importing or exporting goods. It is issued by the Directorate General of Foreign Trade (DGFT) and is mandatory for international trade transactions."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "You can apply for an IEC online through the DGFT's website. The process involves filling out an application form, submitting necessary documents like PAN card, proof of address, and bank details, and paying the required fee.",
+        "question": "How do I apply for an IEC?",
+        "answers": {
+            "text": ["You can apply for an IEC online through the DGFT's website. The process involves filling out an application form, submitting necessary documents like PAN card, proof of address, and bank details, and paying the required fee."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "An IEC is important because it is a mandatory requirement for any entity involved in international trade. It serves as a unique identification code for businesses, facilitating smooth transactions and compliance with regulatory requirements.",
+        "question": "Why is an IEC important?",
+        "answers": {
+            "text": ["An IEC is important because it is a mandatory requirement for any entity involved in international trade. It serves as a unique identification code for businesses, facilitating smooth transactions and compliance with regulatory requirements."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "AD Code stands for Authorized Dealer Code, which is a unique code assigned to authorized banks by the Reserve Bank of India (RBI). It is required for foreign currency transactions and is used in conjunction with the IEC for export-related banking activities.",
+        "question": "What is an AD Code?",
+        "answers": {
+            "text": ["AD Code stands for Authorized Dealer Code, which is a unique code assigned to authorized banks by the Reserve Bank of India (RBI). It is required for foreign currency transactions and is used in conjunction with the IEC for export-related banking activities."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "An AD Code is automatically assigned to the bank you are dealing with for foreign exchange transactions. You do not need to apply for it separately; it is provided by the bank handling your export-related financial transactions.",
+        "question": "How do I obtain an AD Code?",
+        "answers": {
+            "text": ["An AD Code is automatically assigned to the bank you are dealing with for foreign exchange transactions. You do not need to apply for it separately; it is provided by the bank handling your export-related financial transactions."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "An AD Code is necessary because it is required for all foreign exchange transactions related to exports. It ensures that the transactions are processed through authorized channels and comply with RBI regulations.",
+        "question": "Why is an AD Code necessary?",
+        "answers": {
+            "text": ["An AD Code is necessary because it is required for all foreign exchange transactions related to exports. It ensures that the transactions are processed through authorized channels and comply with RBI regulations."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Bill of Lading (B/L) is a legal document issued by the carrier to the shipper that details the type, quantity, and destination of the goods being carried. It also serves as a receipt of shipment when the goods are delivered to the predetermined destination.",
+        "question": "What is a Bill of Lading?",
+        "answers": {
+            "text": ["A Bill of Lading (B/L) is a legal document issued by the carrier to the shipper that details the type, quantity, and destination of the goods being carried. It also serves as a receipt of shipment when the goods are delivered to the predetermined destination."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Bill of Lading is used as a contract between the shipper and the carrier, and as a receipt of shipment. It is also a document of title, meaning it can be transferred to another party to prove ownership of the goods.",
+        "question": "How is a Bill of Lading used?",
+        "answers": {
+            "text": ["A Bill of Lading is used as a contract between the shipper and the carrier, and as a receipt of shipment. It is also a document of title, meaning it can be transferred to another party to prove ownership of the goods."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Bill of Lading is important because it is a crucial document in international trade. It provides proof of shipment, serves as a contract for carriage, and acts as a document of title, facilitating the transfer of ownership and payment.",
+        "question": "Why is a Bill of Lading important?",
+        "answers": {
+            "text": ["A Bill of Lading is important because it is a crucial document in international trade. It provides proof of shipment, serves as a contract for carriage, and acts as a document of title, facilitating the transfer of ownership and payment."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Commercial Invoice is a document issued by the exporter to the importer detailing the goods being sold, their value, and other essential information. It is used for customs clearance, tax purposes, and as a record of the transaction.",
+        "question": "What is a Commercial Invoice?",
+        "answers": {
+            "text": ["A Commercial Invoice is a document issued by the exporter to the importer detailing the goods being sold, their value, and other essential information. It is used for customs clearance, tax purposes, and as a record of the transaction."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "To create a Commercial Invoice, include details such as the exporter's and importer's information, description of goods, quantity, unit price, total value, and any applicable taxes or charges. Ensure it is signed and dated by the exporter.",
+        "question": "How do I create a Commercial Invoice?",
+        "answers": {
+            "text": ["To create a Commercial Invoice, include details such as the exporter's and importer's information, description of goods, quantity, unit price, total value, and any applicable taxes or charges. Ensure it is signed and dated by the exporter."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Commercial Invoice is necessary because it provides essential information for customs clearance, tax calculations, and record-keeping. It is a legal document that verifies the transaction details between the exporter and importer.",
+        "question": "Why is a Commercial Invoice necessary?",
+        "answers": {
+            "text": ["A Commercial Invoice is necessary because it provides essential information for customs clearance, tax calculations, and record-keeping. It is a legal document that verifies the transaction details between the exporter and importer."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Certificate of Origin is a document certifying that the goods in a shipment are of a certain origin, typically the country of manufacture. It is often required by customs authorities for import clearance and may be necessary for trade agreements.",
+        "question": "What is a Certificate of Origin?",
+        "answers": {
+            "text": ["A Certificate of Origin is a document certifying that the goods in a shipment are of a certain origin, typically the country of manufacture. It is often required by customs authorities for import clearance and may be necessary for trade agreements."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Certificate of Origin can be obtained from a chamber of commerce or a similar authorized body. The exporter must provide details of the goods, their origin, and other required information. The chamber of commerce will then issue the certificate.",
+        "question": "How do I obtain a Certificate of Origin?",
+        "answers": {
+            "text": ["A Certificate of Origin can be obtained from a chamber of commerce or a similar authorized body. The exporter must provide details of the goods, their origin, and other required information. The chamber of commerce will then issue the certificate."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Certificate of Origin is important because it verifies the origin of the goods, which is often required by customs authorities for import clearance. It may also be necessary for compliance with trade agreements and to benefit from preferential tariffs.",
+        "question": "Why is a Certificate of Origin important?",
+        "answers": {
+            "text": ["A Certificate of Origin is important because it verifies the origin of the goods, which is often required by customs authorities for import clearance. It may also be necessary for compliance with trade agreements and to benefit from preferential tariffs."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Letter of Credit (L/C) is a financial instrument issued by a bank guaranteeing the payment of a specified amount to the exporter provided that the terms and conditions stated in the L/C are met. It is commonly used in international trade to mitigate risks.",
+        "question": "What is a Letter of Credit?",
+        "answers": {
+            "text": ["A Letter of Credit (L/C) is a financial instrument issued by a bank guaranteeing the payment of a specified amount to the exporter provided that the terms and conditions stated in the L/C are met. It is commonly used in international trade to mitigate risks."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "In a Letter of Credit transaction, the buyer's bank issues an L/C to the seller's bank, guaranteeing payment upon receipt of compliant documents. The seller ships the goods and submits the required documents to their bank, which then claims payment from the buyer's bank.",
+        "question": "How does a Letter of Credit work?",
+        "answers": {
+            "text": ["In a Letter of Credit transaction, the buyer's bank issues an L/C to the seller's bank, guaranteeing payment upon receipt of compliant documents. The seller ships the goods and submits the required documents to their bank, which then claims payment from the buyer's bank."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Letter of Credit is used to mitigate risks in international trade, particularly the risk of non-payment by the buyer. It provides a secure payment mechanism, ensuring that the exporter receives payment if they fulfill the terms of the L/C.",
+        "question": "Why is a Letter of Credit used?",
+        "answers": {
+            "text": ["A Letter of Credit is used to mitigate risks in international trade, particularly the risk of non-payment by the buyer. It provides a secure payment mechanism, ensuring that the exporter receives payment if they fulfill the terms of the L/C."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Packing List is a document that lists the items in a shipment, including details such as the quantity, weight, and dimensions of each item. It is used for customs clearance and to ensure that the correct goods are shipped.",
+        "question": "What is a Packing List?",
+        "answers": {
+            "text": ["A Packing List is a document that lists the items in a shipment, including details such as the quantity, weight, and dimensions of each item. It is used for customs clearance and to ensure that the correct goods are shipped."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "To create a Packing List, include details such as the exporter's and importer's information, description of goods, quantity, weight, dimensions, and any other relevant details. Ensure it is signed and dated by the exporter.",
+        "question": "How do I create a Packing List?",
+        "answers": {
+            "text": ["To create a Packing List, include details such as the exporter's and importer's information, description of goods, quantity, weight, dimensions, and any other relevant details. Ensure it is signed and dated by the exporter."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Packing List is necessary because it provides detailed information about the contents of a shipment, which is required for customs clearance and to ensure that the correct goods are shipped. It helps in verifying the shipment and facilitates smooth logistics.",
+        "question": "Why is a Packing List necessary?",
+        "answers": {
+            "text": ["A Packing List is necessary because it provides detailed information about the contents of a shipment, which is required for customs clearance and to ensure that the correct goods are shipped. It helps in verifying the shipment and facilitates smooth logistics."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Proforma Invoice is a preliminary invoice issued by the exporter to the importer before the shipment is made. It includes details such as the description of goods, quantity, unit price, and total value, and is often used to request a Letter of Credit or for customs purposes.",
+        "question": "What is a Proforma Invoice?",
+        "answers": {
+            "text": ["A Proforma Invoice is a preliminary invoice issued by the exporter to the importer before the shipment is made. It includes details such as the description of goods, quantity, unit price, and total value, and is often used to request a Letter of Credit or for customs purposes."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Proforma Invoice is used to provide a detailed estimate of the goods to be shipped, which can be used by the importer to apply for a Letter of Credit or for customs purposes. It is not a final invoice and does not represent an actual sale.",
+        "question": "How is a Proforma Invoice used?",
+        "answers": {
+            "text": ["A Proforma Invoice is used to provide a detailed estimate of the goods to be shipped, which can be used by the importer to apply for a Letter of Credit or for customs purposes. It is not a final invoice and does not represent an actual sale."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Proforma Invoice is important because it provides a detailed estimate of the goods to be shipped, which is necessary for various purposes such as applying for a Letter of Credit or for customs clearance. It helps in preparing for the transaction and ensures that all parties are on the same page.",
+        "question": "Why is a Proforma Invoice important?",
+        "answers": {
+            "text": ["A Proforma Invoice is important because it provides a detailed estimate of the goods to be shipped, which is necessary for various purposes such as applying for a Letter of Credit or for customs clearance. It helps in preparing for the transaction and ensures that all parties are on the same page."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Customs Declaration is a document that provides information about the contents of a shipment to customs authorities. It includes details such as the description of goods, value, origin, and destination, and is required for customs clearance.",
+        "question": "What is a Customs Declaration?",
+        "answers": {
+            "text": ["A Customs Declaration is a document that provides information about the contents of a shipment to customs authorities. It includes details such as the description of goods, value, origin, and destination, and is required for customs clearance."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "To complete a Customs Declaration, provide details such as the description of goods, value, origin, destination, and any other required information. Ensure that all details are accurate and comply with customs regulations.",
+        "question": "How do I complete a Customs Declaration?",
+        "answers": {
+            "text": ["To complete a Customs Declaration, provide details such as the description of goods, value, origin, destination, and any other required information. Ensure that all details are accurate and comply with customs regulations."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Customs Declaration is necessary because it provides essential information about the shipment to customs authorities, which is required for customs clearance. It ensures that the shipment complies with customs regulations and facilitates smooth clearance.",
+        "question": "Why is a Customs Declaration necessary?",
+        "answers": {
+            "text": ["A Customs Declaration is necessary because it provides essential information about the shipment to customs authorities, which is required for customs clearance. It ensures that the shipment complies with customs regulations and facilitates smooth clearance."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Phytosanitary Certificate is a document issued by the plant protection organization of the exporting country, certifying that the plants or plant products have been inspected and are free from pests and diseases, and comply with the importing country's requirements.",
+        "question": "What is a Phytosanitary Certificate?",
+        "answers": {
+            "text": ["A Phytosanitary Certificate is a document issued by the plant protection organization of the exporting country, certifying that the plants or plant products have been inspected and are free from pests and diseases, and comply with the importing country's requirements."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "To obtain a Phytosanitary Certificate, contact the plant protection organization of your country. Provide details of the plants or plant products to be exported, and they will inspect the goods and issue the certificate if they meet the requirements.",
+        "question": "How do I obtain a Phytosanitary Certificate?",
+        "answers": {
+            "text": ["To obtain a Phytosanitary Certificate, contact the plant protection organization of your country. Provide details of the plants or plant products to be exported, and they will inspect the goods and issue the certificate if they meet the requirements."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Phytosanitary Certificate is important because it certifies that the plants or plant products are free from pests and diseases, which is often required by importing countries for customs clearance. It helps in ensuring the safety and compliance of the shipment.",
+        "question": "Why is a Phytosanitary Certificate important?",
+        "answers": {
+            "text": ["A Phytosanitary Certificate is important because it certifies that the plants or plant products are free from pests and diseases, which is often required by importing countries for customs clearance. It helps in ensuring the safety and compliance of the shipment."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Sanitary Certificate is a document issued by the health authority of the exporting country, certifying that the food products or animals comply with the sanitary requirements of the importing country. It is often required for customs clearance.",
+        "question": "What is a Sanitary Certificate?",
+        "answers": {
+            "text": ["A Sanitary Certificate is a document issued by the health authority of the exporting country, certifying that the food products or animals comply with the sanitary requirements of the importing country. It is often required for customs clearance."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "To obtain a Sanitary Certificate, contact the health authority of your country. Provide details of the food products or animals to be exported, and they will inspect the goods and issue the certificate if they meet the sanitary requirements.",
+        "question": "How do I obtain a Sanitary Certificate?",
+        "answers": {
+            "text": ["To obtain a Sanitary Certificate, contact the health authority of your country. Provide details of the food products or animals to be exported, and they will inspect the goods and issue the certificate if they meet the sanitary requirements."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Sanitary Certificate is necessary because it certifies that the food products or animals comply with the sanitary requirements of the importing country, which is often required for customs clearance. It helps in ensuring the safety and compliance of the shipment.",
+        "question": "Why is a Sanitary Certificate necessary?",
+        "answers": {
+            "text": ["A Sanitary Certificate is necessary because it certifies that the food products or animals comply with the sanitary requirements of the importing country, which is often required for customs clearance. It helps in ensuring the safety and compliance of the shipment."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Free Sale Certificate is a document issued by the relevant authority in the exporting country, certifying that the products are freely sold in the domestic market and comply with the required standards. It is often required by importing countries for customs clearance.",
+        "question": "What is a Free Sale Certificate?",
+        "answers": {
+            "text": ["A Free Sale Certificate is a document issued by the relevant authority in the exporting country, certifying that the products are freely sold in the domestic market and comply with the required standards. It is often required by importing countries for customs clearance."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "To obtain a Free Sale Certificate, contact the relevant authority in your country, such as the Ministry of Commerce or a chamber of commerce. Provide details of the products to be exported, and they will issue the certificate if the products are freely sold in the domestic market.",
+        "question": "How do I obtain a Free Sale Certificate?",
+        "answers": {
+            "text": ["To obtain a Free Sale Certificate, contact the relevant authority in your country, such as the Ministry of Commerce or a chamber of commerce. Provide details of the products to be exported, and they will issue the certificate if the products are freely sold in the domestic market."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Free Sale Certificate is important because it certifies that the products are freely sold in the domestic market and comply with the required standards, which is often required by importing countries for customs clearance. It helps in ensuring the legitimacy and compliance of the shipment.",
+        "question": "Why is a Free Sale Certificate important?",
+        "answers": {
+            "text": ["A Free Sale Certificate is important because it certifies that the products are freely sold in the domestic market and comply with the required standards, which is often required by importing countries for customs clearance. It helps in ensuring the legitimacy and compliance of the shipment."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A GSP Certificate (Generalized System of Preferences Certificate) is a document certifying that the goods being exported qualify for preferential tariff treatment under the GSP scheme. It is often required by importing countries for customs clearance.",
+        "question": "What is a GSP Certificate?",
+        "answers": {
+            "text": ["A GSP Certificate (Generalized System of Preferences Certificate) is a document certifying that the goods being exported qualify for preferential tariff treatment under the GSP scheme. It is often required by importing countries for customs clearance."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "To obtain a GSP Certificate, contact the relevant authority in your country, such as the Ministry of Commerce or a chamber of commerce. Provide details of the goods to be exported, and they will issue the certificate if the goods qualify for the GSP scheme.",
+        "question": "How do I obtain a GSP Certificate?",
+        "answers": {
+            "text": ["To obtain a GSP Certificate, contact the relevant authority in your country, such as the Ministry of Commerce or a chamber of commerce. Provide details of the goods to be exported, and they will issue the certificate if the goods qualify for the GSP scheme."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A GSP Certificate is necessary because it certifies that the goods qualify for preferential tariff treatment under the GSP scheme, which is often required by importing countries for customs clearance. It helps in reducing the tariff costs and facilitating smooth clearance.",
+        "question": "Why is a GSP Certificate necessary?",
+        "answers": {
+            "text": ["A GSP Certificate is necessary because it certifies that the goods qualify for preferential tariff treatment under the GSP scheme, which is often required by importing countries for customs clearance. It helps in reducing the tariff costs and facilitating smooth clearance."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Carnet is a customs document that allows the holder to temporarily import goods into a country without paying duties and taxes. It is often used for trade shows, exhibitions, and other temporary imports.",
+        "question": "What is a Carnet?",
+        "answers": {
+            "text": ["A Carnet is a customs document that allows the holder to temporarily import goods into a country without paying duties and taxes. It is often used for trade shows, exhibitions, and other temporary imports."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "To obtain a Carnet, contact a national issuing authority, such as a chamber of commerce. Provide details of the goods to be temporarily imported, and they will issue the Carnet if the goods qualify for temporary importation.",
+        "question": "How do I obtain a Carnet?",
+        "answers": {
+            "text": ["To obtain a Carnet, contact a national issuing authority, such as a chamber of commerce. Provide details of the goods to be temporarily imported, and they will issue the Carnet if the goods qualify for temporary importation."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Carnet is important because it allows the holder to temporarily import goods without paying duties and taxes, which is often required for trade shows, exhibitions, and other temporary imports. It helps in reducing costs and facilitating smooth customs clearance.",
+        "question": "Why is a Carnet important?",
+        "answers": {
+            "text": ["A Carnet is important because it allows the holder to temporarily import goods without paying duties and taxes, which is often required for trade shows, exhibitions, and other temporary imports. It helps in reducing costs and facilitating smooth customs clearance."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Customs Bond is a financial guarantee provided by a surety company to customs authorities, ensuring that the importer will comply with customs regulations and pay duties and taxes. It is often required for certain types of imports.",
+        "question": "What is a Customs Bond?",
+        "answers": {
+            "text": ["A Customs Bond is a financial guarantee provided by a surety company to customs authorities, ensuring that the importer will comply with customs regulations and pay duties and taxes. It is often required for certain types of imports."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "To obtain a Customs Bond, contact a surety company. Provide details of the import transaction, and they will issue the bond if the importer meets the requirements. The bond is typically paid as a percentage of the duties and taxes.",
+        "question": "How do I obtain a Customs Bond?",
+        "answers": {
+            "text": ["To obtain a Customs Bond, contact a surety company. Provide details of the import transaction, and they will issue the bond if the importer meets the requirements. The bond is typically paid as a percentage of the duties and taxes."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Customs Bond is necessary because it provides a financial guarantee to customs authorities, ensuring that the importer will comply with customs regulations and pay duties and taxes. It helps in mitigating risks and facilitating smooth customs clearance.",
+        "question": "Why is a Customs Bond necessary?",
+        "answers": {
+            "text": ["A Customs Bond is necessary because it provides a financial guarantee to customs authorities, ensuring that the importer will comply with customs regulations and pay duties and taxes. It helps in mitigating risks and facilitating smooth customs clearance."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Customs Broker is a licensed professional who assists importers and exporters in complying with customs regulations and completing the necessary documentation for customs clearance. They act as intermediaries between the trader and customs authorities.",
+        "question": "What is a Customs Broker?",
+        "answers": {
+            "text": ["A Customs Broker is a licensed professional who assists importers and exporters in complying with customs regulations and completing the necessary documentation for customs clearance. They act as intermediaries between the trader and customs authorities."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "To choose a Customs Broker, consider factors such as their experience, reputation, fees, and services offered. Look for brokers who specialize in your industry and have a good track record of handling similar transactions.",
+        "question": "How do I choose a Customs Broker?",
+        "answers": {
+            "text": ["To choose a Customs Broker, consider factors such as their experience, reputation, fees, and services offered. Look for brokers who specialize in your industry and have a good track record of handling similar transactions."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Customs Broker is important because they assist in navigating complex customs regulations, completing necessary documentation, and ensuring compliance with customs requirements. They help in reducing risks and facilitating smooth customs clearance.",
+        "question": "Why is a Customs Broker important?",
+        "answers": {
+            "text": ["A Customs Broker is important because they assist in navigating complex customs regulations, completing necessary documentation, and ensuring compliance with customs requirements. They help in reducing risks and facilitating smooth customs clearance."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Trade Agreement is a formal agreement between countries to reduce or eliminate tariffs, quotas, and other trade barriers. It aims to promote trade and economic cooperation between the participating countries.",
+        "question": "What is a Trade Agreement?",
+        "answers": {
+            "text": ["A Trade Agreement is a formal agreement between countries to reduce or eliminate tariffs, quotas, and other trade barriers. It aims to promote trade and economic cooperation between the participating countries."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Trade Agreements affect exports by reducing or eliminating tariffs, quotas, and other trade barriers, making it easier and cheaper to export goods to the participating countries. They also provide opportunities for market access and increased trade.",
+        "question": "How do Trade Agreements affect exports?",
+        "answers": {
+            "text": ["Trade Agreements affect exports by reducing or eliminating tariffs, quotas, and other trade barriers, making it easier and cheaper to export goods to the participating countries. They also provide opportunities for market access and increased trade."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Trade Agreements are important because they promote trade and economic cooperation between countries, reducing trade barriers and providing opportunities for market access. They help in expanding market reach and increasing export opportunities.",
+        "question": "Why are Trade Agreements important?",
+        "answers": {
+            "text": ["Trade Agreements are important because they promote trade and economic cooperation between countries, reducing trade barriers and providing opportunities for market access. They help in expanding market reach and increasing export opportunities."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Trade Tariff is a tax imposed on imported or exported goods. It is used by governments to regulate trade, protect domestic industries, and generate revenue.",
+        "question": "What is a Trade Tariff?",
+        "answers": {
+            "text": ["A Trade Tariff is a tax imposed on imported or exported goods. It is used by governments to regulate trade, protect domestic industries, and generate revenue."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Trade Tariffs affect exports by increasing the cost of exporting goods, making them less competitive in the international market. High tariffs can reduce export volumes and market access.",
+        "question": "How do Trade Tariffs affect exports?",
+        "answers": {
+            "text": ["Trade Tariffs affect exports by increasing the cost of exporting goods, making them less competitive in the international market. High tariffs can reduce export volumes and market access."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Trade Tariffs are important because they regulate trade, protect domestic industries, and generate revenue for the government. They also play a role in trade negotiations and agreements.",
+        "question": "Why are Trade Tariffs important?",
+        "answers": {
+            "text": ["Trade Tariffs are important because they regulate trade, protect domestic industries, and generate revenue for the government. They also play a role in trade negotiations and agreements."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Trade Quota is a restriction on the quantity of goods that can be imported or exported during a specified period. It is used by governments to control trade and protect domestic industries.",
+        "question": "What is a Trade Quota?",
+        "answers": {
+            "text": ["A Trade Quota is a restriction on the quantity of goods that can be imported or exported during a specified period. It is used by governments to control trade and protect domestic industries."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Trade Quotas affect exports by limiting the quantity of goods that can be exported, which can reduce export volumes and market access. They can also create uncertainty and affect trade planning.",
+        "question": "How do Trade Quotas affect exports?",
+        "answers": {
+            "text": ["Trade Quotas affect exports by limiting the quantity of goods that can be exported, which can reduce export volumes and market access. They can also create uncertainty and affect trade planning."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Trade Quotas are important because they control trade, protect domestic industries, and manage market access. They also play a role in trade negotiations and agreements.",
+        "question": "Why are Trade Quotas important?",
+        "answers": {
+            "text": ["Trade Quotas are important because they control trade, protect domestic industries, and manage market access. They also play a role in trade negotiations and agreements."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Trade Embargo is a government-imposed prohibition on trade with a specific country or group of countries. It is used as a political or economic sanction to exert pressure or punish the target country.",
+        "question": "What is a Trade Embargo?",
+        "answers": {
+            "text": ["A Trade Embargo is a government-imposed prohibition on trade with a specific country or group of countries. It is used as a political or economic sanction to exert pressure or punish the target country."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "For exporting garments, you typically need documents such as a Commercial Invoice, Bill of Lading, Packing List, Certificate of Origin, and sometimes a Textile Export Certificate. Additional documents may be required depending on the destination country.",
+        "question": "What documents are required for exporting garments?",
+        "answers": {
+            "text": ["For exporting garments, you typically need documents such as a Commercial Invoice, Bill of Lading, Packing List, Certificate of Origin, and sometimes a Textile Export Certificate. Additional documents may be required depending on the destination country."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Leather Export Certificate is important because it certifies that the leather products comply with the regulations and standards of the importing country. It helps in ensuring the quality and compliance of the leather goods, facilitating smooth customs clearance.",
+        "question": "What is the importance of a Leather Export Certificate?",
+        "answers": {
+            "text": ["A Leather Export Certificate is important because it certifies that the leather products comply with the regulations and standards of the importing country. It helps in ensuring the quality and compliance of the leather goods, facilitating smooth customs clearance."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Common challenges in exporting fruits include meeting phytosanitary requirements, ensuring freshness and quality, complying with labeling and packaging standards, and dealing with transportation and logistics issues.",
+        "question": "What are the common challenges in exporting fruits?",
+        "answers": {
+            "text": ["Common challenges in exporting fruits include meeting phytosanitary requirements, ensuring freshness and quality, complying with labeling and packaging standards, and dealing with transportation and logistics issues."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Key considerations for exporting food products include compliance with food safety regulations, meeting labeling and packaging requirements, ensuring product quality and freshness, and understanding the import regulations of the destination country.",
+        "question": "What are the key considerations for exporting food products?",
+        "answers": {
+            "text": ["Key considerations for exporting food products include compliance with food safety regulations, meeting labeling and packaging requirements, ensuring product quality and freshness, and understanding the import regulations of the destination country."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Essential documents for exporting packaging materials include a Commercial Invoice, Bill of Lading, Packing List, Certificate of Origin, and sometimes a Material Safety Data Sheet (MSDS) if the packaging materials contain hazardous substances.",
+        "question": "What are the essential documents for exporting packaging materials?",
+        "answers": {
+            "text": ["Essential documents for exporting packaging materials include a Commercial Invoice, Bill of Lading, Packing List, Certificate of Origin, and sometimes a Material Safety Data Sheet (MSDS) if the packaging materials contain hazardous substances."],
+            "answer_start": [0]
+        }
+    }
+]
