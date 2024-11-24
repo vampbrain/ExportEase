@@ -62,7 +62,7 @@ ExportEase/
 - Node.js (v16 or higher)
 - Python 3.8+
 - npm or yarn
-- MongoDB
+- PostgreSQL
 
 ### Frontend Setup
 ```bash
