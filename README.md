@@ -2,6 +2,8 @@
 
 ExportEase is a comprehensive export management platform that helps businesses streamline their export operations with features like compliance checking, FAQ assistance, and delivery price estimation.
 
+- Deployed Link - [@https://exportease1.vercel.app](https://exportease1.vercel.app)
+
 ## 🌟 Features
 
 ### 1. Compliance Assistant
@@ -147,7 +149,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Team
 
 - AI Developer - [@Bharati](https://github.com/vampbrain)
-- AI Developer - [@Yogesh](https://github.com/backenddev)
+- AI Developer - [@Yogesh](https://github.com/Yogesh-005)
 - Frontend Developer - [@Tarun](https://github.com/jmt-genius)
 - Fullstack Developer - [@Aswin](https://github.com/aswin-codes)
 
