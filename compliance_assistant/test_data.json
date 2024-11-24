@@ -1,0 +1,138 @@
+[
+    {
+        "context": "IEC stands for Importer-Exporter Code, which is a 10-digit code required for any entity involved in importing or exporting goods. It is issued by the Directorate General of Foreign Trade (DGFT) and is mandatory for international trade transactions.",
+        "question": "What is an IEC?",
+        "answers": {
+            "text": ["IEC stands for Importer-Exporter Code, which is a 10-digit code required for any entity involved in importing or exporting goods. It is issued by the Directorate General of Foreign Trade (DGFT) and is mandatory for international trade transactions."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "An AD Code is automatically assigned to the bank you are dealing with for foreign exchange transactions. You do not need to apply for it separately; it is provided by the bank handling your export-related financial transactions.",
+        "question": "How do I apply for an AD Code?",
+        "answers": {
+            "text": ["An AD Code is automatically assigned to the bank you are dealing with for foreign exchange transactions. You do not need to apply for it separately; it is provided by the bank handling your export-related financial transactions."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Bill of Lading (B/L) is a legal document issued by the carrier to the shipper that details the type, quantity, and destination of the goods being carried. It also serves as a receipt of shipment when the goods are delivered to the predetermined destination.",
+        "question": "What is a Bill of Lading?",
+        "answers": {
+            "text": ["A Bill of Lading (B/L) is a legal document issued by the carrier to the shipper that details the type, quantity, and destination of the goods being carried. It also serves as a receipt of shipment when the goods are delivered to the predetermined destination."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Commercial Invoice is necessary because it provides essential information for customs clearance, tax calculations, and record-keeping. It is a legal document that verifies the transaction details between the exporter and importer.",
+        "question": "Why is a Commercial Invoice necessary?",
+        "answers": {
+            "text": ["A Commercial Invoice is necessary because it provides essential information for customs clearance, tax calculations, and record-keeping. It is a legal document that verifies the transaction details between the exporter and importer."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Phytosanitary Certificate is a document issued by the plant protection organization of the exporting country, certifying that the plants or plant products have been inspected and are free from pests and diseases, and comply with the importing country's requirements.",
+        "question": "What is a Phytosanitary Certificate?",
+        "answers": {
+            "text": ["A Phytosanitary Certificate is a document issued by the plant protection organization of the exporting country, certifying that the plants or plant products have been inspected and are free from pests and diseases, and comply with the importing country's requirements."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "To obtain a Sanitary Certificate, contact the health authority of your country. Provide details of the food products or animals to be exported, and they will inspect the goods and issue the certificate if they meet the sanitary requirements.",
+        "question": "How do I obtain a Sanitary Certificate?",
+        "answers": {
+            "text": ["To obtain a Sanitary Certificate, contact the health authority of your country. Provide details of the food products or animals to be exported, and they will inspect the goods and issue the certificate if they meet the sanitary requirements."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Free Sale Certificate is a document issued by the relevant authority in the exporting country, certifying that the products are freely sold in the domestic market and comply with the required standards. It is often required by importing countries for customs clearance.",
+        "question": "What is a Free Sale Certificate?",
+        "answers": {
+            "text": ["A Free Sale Certificate is a document issued by the relevant authority in the exporting country, certifying that the products are freely sold in the domestic market and comply with the required standards. It is often required by importing countries for customs clearance."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "To choose a Customs Broker, consider factors such as their experience, reputation, fees, and services offered. Look for brokers who specialize in your industry and have a good track record of handling similar transactions.",
+        "question": "How do I choose a Customs Broker?",
+        "answers": {
+            "text": ["To choose a Customs Broker, consider factors such as their experience, reputation, fees, and services offered. Look for brokers who specialize in your industry and have a good track record of handling similar transactions."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Trade Agreement is a formal agreement between countries to reduce or eliminate tariffs, quotas, and other trade barriers. It aims to promote trade and economic cooperation between the participating countries.",
+        "question": "What is a Trade Agreement?",
+        "answers": {
+            "text": ["A Trade Agreement is a formal agreement between countries to reduce or eliminate tariffs, quotas, and other trade barriers. It aims to promote trade and economic cooperation between the participating countries."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Trade Tariffs affect exports by increasing the cost of exporting goods, making them less competitive in the international market. High tariffs can reduce export volumes and market access.",
+        "question": "How do Trade Tariffs affect exports?",
+        "answers": {
+            "text": ["Trade Tariffs affect exports by increasing the cost of exporting goods, making them less competitive in the international market. High tariffs can reduce export volumes and market access."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Trade Quota is a restriction on the quantity of goods that can be imported or exported during a specified period. It is used by governments to control trade and protect domestic industries.",
+        "question": "What is a Trade Quota?",
+        "answers": {
+            "text": ["A Trade Quota is a restriction on the quantity of goods that can be imported or exported during a specified period. It is used by governments to control trade and protect domestic industries."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Trade Embargo is a government-imposed prohibition on trade with a specific country or group of countries. It is used as a political or economic sanction to exert pressure or punish the target country.",
+        "question": "What is a Trade Embargo?",
+        "answers": {
+            "text": ["A Trade Embargo is a government-imposed prohibition on trade with a specific country or group of countries. It is used as a political or economic sanction to exert pressure or punish the target country."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "For exporting garments, you typically need documents such as a Commercial Invoice, Bill of Lading, Packing List, Certificate of Origin, and sometimes a Textile Export Certificate. Additional documents may be required depending on the destination country.",
+        "question": "What documents are required for exporting garments?",
+        "answers": {
+            "text": ["For exporting garments, you typically need documents such as a Commercial Invoice, Bill of Lading, Packing List, Certificate of Origin, and sometimes a Textile Export Certificate. Additional documents may be required depending on the destination country."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "A Leather Export Certificate is important because it certifies that the leather products comply with the regulations and standards of the importing country. It helps in ensuring the quality and compliance of the leather goods, facilitating smooth customs clearance.",
+        "question": "What is the importance of a Leather Export Certificate?",
+        "answers": {
+            "text": ["A Leather Export Certificate is important because it certifies that the leather products comply with the regulations and standards of the importing country. It helps in ensuring the quality and compliance of the leather goods, facilitating smooth customs clearance."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Common challenges in exporting fruits include meeting phytosanitary requirements, ensuring freshness and quality, complying with labeling and packaging standards, and dealing with transportation and logistics issues.",
+        "question": "What are the common challenges in exporting fruits?",
+        "answers": {
+            "text": ["Common challenges in exporting fruits include meeting phytosanitary requirements, ensuring freshness and quality, complying with labeling and packaging standards, and dealing with transportation and logistics issues."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Key considerations for exporting food products include compliance with food safety regulations, meeting labeling and packaging requirements, ensuring product quality and freshness, and understanding the import regulations of the destination country.",
+        "question": "What are the key considerations for exporting food products?",
+        "answers": {
+            "text": ["Key considerations for exporting food products include compliance with food safety regulations, meeting labeling and packaging requirements, ensuring product quality and freshness, and understanding the import regulations of the destination country."],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "Essential documents for exporting packaging materials include a Commercial Invoice, Bill of Lading, Packing List, Certificate of Origin, and sometimes a Material Safety Data Sheet (MSDS) if the packaging materials contain hazardous substances.",
+        "question": "What are the essential documents for exporting packaging materials?",
+        "answers": {
+            "text": ["Essential documents for exporting packaging materials include a Commercial Invoice, Bill of Lading, Packing List, Certificate of Origin, and sometimes a Material Safety Data Sheet (MSDS) if the packaging materials contain hazardous substances."],
+            "answer_start": [0]
+        }
+    }
+]
