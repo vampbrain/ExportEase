@@ -76,7 +76,7 @@ const ComplianceAssistant = () => {
       formData.append('question', newMessage);
       formData.append('file', selectedFile);
 
-      const response = await fetch('http://localhost:8000/ask/', {
+      const response = await fetch('https://exportease-fastapi.vercel.app/ask/', {
         method: 'POST',
         body: formData,
       });

@@ -36,7 +36,7 @@ const CustomChatbot = () => {
       formData.append('session_id', sessionId);
       formData.append('context', 'Your FAQ context here');
 
-      const response = await fetch('http://localhost:8000/faq/start', {
+      const response = await fetch('https://exportease-fastapi.vercel.app/faq/start', {
         method: 'POST',
         body: formData,
       });
@@ -79,7 +79,7 @@ const CustomChatbot = () => {
       formData.append('question', userMessage);
       formData.append('session_id', sessionId);
 
-      const response = await fetch('http://localhost:8000/faq/ask', {
+      const response = await fetch('https://exportease-fastapi.vercel.app/faq/ask', {
         method: 'POST',
         body: formData,
       });
@@ -105,7 +105,7 @@ const CustomChatbot = () => {
 
   const handleClose = async () => {
     try {
-      await fetch(`http://localhost:8000/faq/end/${sessionId}`, {
+      await fetch(`https://exportease-fastapi.vercel.app/faq/end/${sessionId}`, {
         method: 'DELETE',
       });
     } catch (error) {
