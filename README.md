@@ -148,7 +148,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Team
 
-- AI Developer - [@Bharati](https://github.com/vampbrain)
+- AI Developer - [@Bharathi](https://github.com/vampbrain)
 - AI Developer - [@Yogesh](https://github.com/Yogesh-005)
 - Fullstack Developer - [@Tarun](https://github.com/jmt-genius)
 - Fullstack Developer - [@Aswin](https://github.com/aswin-codes)
